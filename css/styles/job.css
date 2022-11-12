@@ -1,0 +1,73 @@
+#body {
+  background-color: rgb(181, 190, 191);
+}
+
+/* Header */
+#header img {
+  width: 33px;
+}
+
+/* Fuente de: https://fonts.google.com/ */
+
+/* Fuente Nav-Bar*/
+#fuente-my-name {
+  /*background-color: lightgreen;*/
+  font-family: my-name, my-name; /*Si no carga bien la fuente importada aplica la sans-serif*/
+  color: #b5e61d;
+}
+@font-face {
+  font-family: my-name;
+  src: url("../fonts/BlackOpsOne-Regular.ttf");
+}
+
+#fuente-txt-common-bold {
+  margin-top: 20px;
+  font-family: texto, texto;
+  color: black;
+}
+@font-face {
+  font-family: texto;
+  src: url("../fonts/ChakraPetch-Bold.ttf");
+}
+
+#fuente-txt-common {
+  font-family: texto-regular, texto-regular;
+  text-align: justify;
+}
+@font-face {
+  font-family: texto-regular;
+  src: url("../fonts/ChakraPetch-Regular.ttf");
+}
+
+#footer {
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+
+#fuente-footer {
+  font-family: footer, cursive;
+  color: white;
+}
+@font-face {
+  font-family: footer;
+  src: url("../fonts/ChakraPetch-Bold.ttf");
+}
+
+#myName {
+  background: radial-gradient(
+    circle,
+    rgba(0, 162, 232, 1) 0%,
+    rgb(0, 88, 128) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#imagenes-ajustables {
+  object-fit: cover;
+  width: 100%;
+  max-width: 100vh;
+}
+
+.subtitle-img {
+  font-size: 14px;
+}

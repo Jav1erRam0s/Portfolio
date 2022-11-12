@@ -1,0 +1,254 @@
+/* Estilo para loader page */
+#page {
+  display: none;
+}
+
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(181, 190, 191);
+  background-image: url("../../assets/img/loader/loader.gif");
+  /* background-size: 500px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* size: 50%; */
+}
+
+#body {
+  background-color: rgb(181, 190, 191);
+}
+
+/* Fuente de: https://fonts.google.com/ */
+/* Importa el tipo de letra, tantos como quisiera */
+/* Fuente Nav-Bar*/
+#fuente-my-name {
+  font-family: my-name, my-name; /*Si no carga bien la fuente importada aplica la sans-serif*/
+  color: #b5e61d;
+}
+@font-face {
+  font-family: my-name;
+  src: url("../fonts/BlackOpsOne-Regular.ttf");
+}
+
+#fuente-txt-sobre-mi {
+  font-family: texto-regular, texto-regular;
+  color: white;
+}
+#fuente-txt-common {
+  font-family: texto-regular, texto-regular;
+}
+@font-face {
+  font-family: texto-regular;
+  src: url("../fonts/ChakraPetch-Regular.ttf");
+}
+
+#fuente-txt-common-bold {
+  font-family: texto, texto;
+  color: black;
+}
+@font-face {
+  font-family: texto;
+  src: url("../fonts/ChakraPetch-Bold.ttf");
+}
+
+#fuente-header {
+  font-family: header, header;
+  color: white;
+}
+#fuente-title-section {
+  font-family: header, header;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#fuente-footer {
+  font-family: header, header;
+  color: white;
+}
+@font-face {
+  font-family: header;
+  src: url("../fonts/ChakraPetch-Bold.ttf");
+}
+
+/* Header */
+
+#header img {
+  width: 33px;
+}
+
+#header button {
+  background-color: #005880;
+}
+
+#header li a:hover {
+  color: #b5e61d;
+}
+
+/* Sobre mi */
+
+#sobre-mi .carousel-inner img {
+  object-fit: cover;
+  width: 100%;
+  height: calc(100vh - 59px);
+  filter: grayscale(70%);
+}
+
+.button-download-cv {
+  font-family: texto-regular, texto-regular;
+  color: black;
+  background-color: #b5e61dc0;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+.button-download-cv:hover {
+  background-color: #b5e61d80;
+  color: white;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+/* Formacion Academica */
+
+#formacion-academica img {
+  width: 60px;
+}
+
+.txt-years {
+  font-size: 13px;
+}
+
+.bg-lic {
+  background-color: #d4ac0d80;
+}
+.bg-lic:hover {
+  background-color: #d4ac0da0;
+}
+
+.bg-inf {
+  background-color: #707b7c80;
+}
+.bg-inf:hover {
+  background-color: #707b7ca0;
+}
+
+.bg-aut {
+  background-color: #ba4a0080;
+}
+.bg-aut:hover {
+  background-color: #ba4a00a0;
+}
+
+.bg-tec {
+  background-color: #2e86c180;
+}
+.bg-tec:hover {
+  background-color: #2e86c1a0;
+}
+
+.badge-average {
+  border: 1px solid darkgray;
+}
+
+#fuente-title-modal {
+  font-family: texto, texto;
+  color: black;
+  font-size: 20px;
+}
+
+#fuente-body-modal {
+  font-family: texto-regular, texto-regular;
+  text-align: justify;
+}
+
+/* Proyectos */
+
+#proyectos .card {
+  background-color: #f5deb380;
+}
+
+#proyectos .card:hover {
+  background-color: #707b7c80;
+}
+
+.badge-reactjs {
+  color: #222222;
+  background-color: #61dafb;
+  border: 1px solid dimgray;
+}
+
+.badge-bootstrap {
+  color: white;
+  background-color: #7952b3;
+  border: 1px solid dimgray;
+}
+
+.badge-javafx {
+  color: white;
+  background-color: #5c819e;
+  border: 1px solid dimgray;
+}
+
+.badge-java {
+  color: white;
+  background-color: #c00b10;
+  border: 1px solid dimgray;
+}
+
+.badge-mariadb {
+  color: #1f305f;
+  background-color: #c0765a;
+  border: 1px solid dimgray;
+}
+
+.badge-remotemysql {
+  color: #e28f01;
+  background-color: #00618b;
+  border: 1px solid dimgray;
+}
+
+/* Contactemonos */
+
+/* ... */
+
+/* Footer */
+
+#footer {
+  /* background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372); */
+  background: #343a40;
+}
+
+#footer h6 {
+  color: white;
+}
+
+#myName {
+  background: radial-gradient(
+    circle,
+    rgba(0, 162, 232, 1) 0%,
+    rgb(0, 88, 128) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
