@@ -49,7 +49,7 @@
 
 #fuente-txt-common-bold {
   font-family: texto, texto;
-  color: black;
+  color: #343a40;
 }
 @font-face {
   font-family: texto;
@@ -60,9 +60,15 @@
   font-family: header, header;
   color: white;
 }
-#fuente-title-section {
+#fuente-title-section-sobre-mi {
   font-family: header, header;
   color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#fuente-title-section {
+  font-family: header, header;
+  color: #343a40;
   margin-top: 10px;
   margin-bottom: 30px;
 }
