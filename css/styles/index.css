@@ -234,6 +234,30 @@
   border: 1px solid dimgray;
 }
 
+.badge-django {
+  color: white;
+  background-color: #0f3e2e;
+  border: 1px solid black;
+}
+
+.badge-opencv {
+  color: #0000ff;
+  background-color: #00ff00;
+  border: 1px solid #ff0000;
+}
+
+.badge-nginx {
+  color: white;
+  background-color: #009900;
+  border: 1px solid #222222;
+}
+
+.badge-metabase {
+  color: #2d85d4;
+  background-color: #dcecf9;
+  border: 1px solid #304e68;
+}
+
 /* Contactemonos */
 
 /* ... */
